@@ -23,8 +23,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone <YOUR_REPO_LINK_HERE>
-   cd my-banxware-assignment
+   git clone https://github.com/Eashwar-22/banxware-data-assignment.git
+   cd banxware-data-assignment
    ```
 2. **Configure Credentials:**
    Create a `~/.dbt/profiles.yml` file with the Snowflake details (see `PROBLEM.md` for template).
@@ -38,6 +38,6 @@
    dbt test  # Validates data quality
    ```
 
-### 📊 Analysis
+### Analysis
 
 To view the answers to the business questions, execute the `.sql` files located in the `queries/` folder directly in your Snowflake worksheet.
