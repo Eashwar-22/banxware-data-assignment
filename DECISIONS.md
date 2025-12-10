@@ -30,7 +30,7 @@ This project implements a standard ELT pipeline using **dbt** and **Snowflake**.
 
 <br>
 <div align="center">
-  <img src="image/DECISIONS/1765377508210.png" alt="Proposed Production Architecture" width="400">
+  <img src="image/DECISIONS/mermaid chart.png" alt="Proposed Production Architecture" width="400">
   <br>
   <em>Hypothetical End-to-End Data Flow</em>
 </div>
