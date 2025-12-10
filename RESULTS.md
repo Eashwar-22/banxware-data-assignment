@@ -1,5 +1,6 @@
 # Query Execution Results (screenshots from Snowflake)
-(from dbt_banxware_assignment/query_verification.sql)
+
+(from queries/query_verification.sql)
 
 1. What are the top 5 products by total sales amount in the year 2023?
 

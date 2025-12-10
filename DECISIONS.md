@@ -13,7 +13,7 @@ This project implements a standard ELT pipeline using **dbt** and **Snowflake**.
 ### Data Ingestion Strategy
 
 * **Choice:** Used `dbt seed` to upload the sales and customer data.
-* **Reasoning:** Since the provided files are small and don't change, `dbt seed` is the best choice. It keeps the data inside the project folder, so anyone can download and run the code immediately without needing extra setup. In a real company with millions of rows, I would use a tool like Fivetran or Snowpipe instead.
+* **Reasoning:** Since the provided files are small and don't change, `dbt seed` is the best choice. It keeps the data inside the project folder, so anyone can download and run the code immediately without needing extra setup. In a real project with millions of rows, I would use a tool like Fivetran instead.
 
 ### Transformation Logic
 
@@ -26,7 +26,7 @@ This project implements a standard ELT pipeline using **dbt** and **Snowflake**.
 * **Currency:** All transactions are assumed to be in EUR.
 * **Uniqueness:** `order_id` is assumed to be a unique primary key.
 * **Data Flow:** [created using mermaid chart].
-  I researched Banxware's architecture and found a detailed case study on Fivetran's website. It explicitly confirms your stack is Fivetran for ingestion, Snowflake for storage, and dbt for transformation. That is why I designed my diagram to match this exact flow.
+  I researched Banxware's architecture and found a detailed case study on Fivetran's website. It confirms your stack is Fivetran for ingestion, Snowflake for storage, and dbt for transformation. That is why I designed my diagram to match this exact flow.
 
 <br>
 <div align="center">
